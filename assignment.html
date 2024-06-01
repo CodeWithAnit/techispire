@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="style.css">
+
+<!-- Applying External CSS -->
+<style>
+
+body{
+    background: rgb(216, 248, 240);
+}
+
+h1{
+    text-align: center;
+    color: rgb(216, 76, 76);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.about{
+   margin: 40px 50px;
+   font-size: 20px;
+
+}
+
+#first{
+    font-weight: bolder;
+    color: rgb(18, 143, 143);       
+    padding: 20px 0px;
+}    
+
+#second{
+    font-weight: 560;
+    color:green;
+    padding: 5px 0px;
+}
+
+#third{
+    color:blue;
+    padding: 10px 0px;
+}
+
+#me{
+    color:rgb(94, 102, 26);
+    font-weight: bolder;
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#hobby{
+    font-size: 18px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+</style>
+
+
+</head>
+<body>
+    <!-- Heading tag -->
+    <h1><u>Portfolio(Anit Shrestha)</u></h1>
+
+    
+      <div class="about">
+        <div id="first">
+        Highly motivated and results-oriented CSIT student with a strong passion for coding and programming. Currently in my second semester, I'm actively developing my skills in web development, with a focus on frontend technologies like HTML and CSS.
+    </div>
+
+<div id="second">
+I've already completed several frontend development projects using HTML and CSS. This experience has allowed me to translate theoretical knowledge into practical applications and build a foundation for further exploration within the coding field.
+</div>
+
+<div id="third">
+My ultimate goal is to establish a successful career in coding.  I'm committed to continuous learning and expanding my skillset to tackle new challenges and contribute meaningfully to the tech industry.
+</div>    
+</div>
+
+<!-- for button -->
+<a href="#submit">
+    <button type="button"><h2>Register</a></button>
+    <br><br>
+
+
+
+<!-- Hobbies section using list tag -->
+      <div id="me">About Me</div> <br>
+
+      <div id="hobby">
+        <ul>
+            <li>Hobbies:</li>
+        </ul>
+
+        <ol>
+            <li>Coding</li>
+            <li>Dancing</li>
+            <li>Reading Books</li>
+            <li>Sleeping</li>
+            <li>Exploring new things</li>
+        </ol>
+      </div>
+      <!-- end of hobbies section -->
+
+      <!-- favourite game and player section using table tag -->
+      <table border="4px">
+        <tr>
+            <th>Games</th>
+            <th>Favourite Player</th>
+        </tr>
+
+        <tr>
+            <th>Football</th>
+            <th>Ronaldo</th>
+        </tr>
+
+        <tr>
+            <th>Basketball</th>
+            <th>Bill Russell</th>
+        </tr>
+
+        <tr>
+            <th>Volleyball</th>
+            <th>Anjal Moktang</th>
+        </tr>
+
+        <tr>
+            <th>Boxing</th>
+            <th>Mike Tyson</th>
+        </tr>
+
+        <tr>
+            <th>Table Tennis</th>
+            <th>Ma Long</th>
+        </tr>
+      </table>
+
+   
+
+
+</div>
+
+<br>
+
+
+
+
+<h2>Students Information:</h2>
+    <table>
+        <form>
+            <tr>
+                <td>Name :</td>
+                <td><input type="text" placeholder="Name of student" name=""></td>
+            </tr>
+
+            
+            <tr>
+                <td>Class :</td>
+                <td><input type="number" placeholder="Class" name=""></td>
+            </tr>
+
+            <tr>
+                <td>Roll no :</td>
+                <td><input type="number" placeholder="Roll number" name=""></td>
+            </tr>
+<!--Radio tag is not functioning properly-->
+            <tr>
+                <td>Gender :</td>
+                <td><input type="radio"  name="gender">Male
+                    <input type="radio"  name="gender">Female</td>
+            </tr>
+
+            <tr>
+                <td>Age :</td>
+                <td><input type="number" placeholder="Age" name=""></td>
+            </tr>
+
+            <tr>
+                <td>Date of Birth :</td>
+                <td><input type="date" placeholder="Date" name=""></td>
+            </tr>
+
+            <tr>
+                <td>Country :</td>
+                <td>
+                    <select>
+                    <option>Nepal</option>
+                    <option>India</option>
+                    <option>China</option>
+                    <option>Bhutan</option>
+                </select></td>
+            </tr>
+
+            <tr>
+                <td>Location :</td>
+                <td><input type="text" placeholder="Address" name=""></td>
+            </tr>
+
+            <tr>
+                <td>Intrested faculty :</td>
+                <td>
+                    <select>
+                        <option>Computer Engineering</option>
+                        <option>Bsc.CSIT</option>
+                        <option>BCA</option>
+                        <option>BIT</option>
+                        <option>BBA</option>
+                        <option>BHM</option>
+                        <option>BA</option>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Email :</td>
+                <td><input type = "text" placeholder="Email" name=""></td>
+            </tr>
+
+            <tr>
+                <td>Phone no :</td>
+                <td>
+                    <select>
+                        <option>977</option>
+                        <option>001</option>
+                        <option>43</option>
+                        <option>642</option>
+                    </select>
+                    <input type="number" placeholder="977*******" name="">
+                </td>
+            </tr>
+
+            <tr>
+                <td id="submit"><input type ="submit"  value="SUBMIT"></td>
+                    <td><input type="reset"  value="RESET"></td>
+            </tr>
+
+  
+</div>
+
+
+
+
+
+</body>
+</html>
